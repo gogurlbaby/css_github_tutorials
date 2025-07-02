@@ -1,0 +1,81 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: wheat;
+  height: 100vh;
+}
+
+h1 {
+  color: red;
+}
+p {
+  color: blue;
+  font-size: 20px;
+  font-weight: 600;
+}
+#unique-paragraph {
+  color: green;
+  font-size: 32px;
+  font-weight: 700;
+}
+.highlighted {
+  color: pink;
+  font-size: 24px;
+  font-weight: 800;
+}
+h4,
+h5 {
+  color: goldenrod;
+  font-size: 28px;
+  font-weight: 500;
+}
+h3 > a {
+  text-decoration: none;
+  color: orange;
+  font-size: 32px;
+  font-weight: 900;
+}
+
+.my-box {
+  background-color: lightgreen;
+  border: 2px solid darkgreen;
+  padding: 30px 60px 20px;
+  margin: 60px;
+  width: 300px;
+  text-align: center;
+}
+
+/* Flexbox is for one dimensional layout */
+.flex-container {
+  display: flex;
+  gap: 32px;
+  margin: 0 auto;
+  background-color: aquamarine;
+  width: 400px;
+  padding: 40px;
+}
+
+.flex-1,
+.flex-2,
+.flex-3,
+.flex-4 {
+  background-color: brown;
+  width: 50px;
+  padding: 20px;
+  border: 1px solid black;
+  margin-bottom: 10px;
+}
+
+/* Grid is for two dimensional layout */
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  margin: 0 auto;
+  background-color: aquamarine;
+  width: 400px;
+  padding: 40px;
+}
